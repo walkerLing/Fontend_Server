@@ -60,10 +60,10 @@ export default {
       const initOption = {
         // title:'tubiao',
         grid: {
-          left: '1%',
+          left: '2%',
           top: '15%',
           right: '4%',
-          bottom: '5%',
+          bottom: '13%',
           containLabel: true
         },
         tooltip: {
@@ -86,7 +86,7 @@ export default {
     
         },
         legend: {
-          left: 25,
+          left: 80,
           top: '0%',
           icon: 'circle',
           textStyle:{

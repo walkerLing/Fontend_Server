@@ -6,7 +6,7 @@
                 <div class="headOfBlockDisplay">
                     <span style="flex:9;font-size:20px;font-weight:bold;color:white;">
                         <i class="el-icon-link"></i>
-                        区块链产品溯源
+                        区块链智慧果园农产品溯源
                     </span>
                     <span
                         style="flex:2;font-size:12px;font-weight:bold;color:#4E5C72;justify-content:end;display:flex;color:white">

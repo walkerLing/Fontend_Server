@@ -4,16 +4,14 @@
         <div>
             <InputFooter></InputFooter>
         </div>
-        <MyFooter></MyFooter>
     </div>
 </template>
 
 <script>
     import SlideShow from '@/components/SlideShow.vue';
-    import MyFooter from '../components/MyFooter.vue';
     export default {
         name: "TeamIntroduction",
-        components:{ SlideShow,MyFooter }
+        components:{ SlideShow }
     }
 </script>
 

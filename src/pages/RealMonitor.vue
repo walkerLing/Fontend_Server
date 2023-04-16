@@ -1,6 +1,6 @@
 <template>
     <div id="Moniter_main" style="height:'100%';weight:'100%'" >
-        <h1 style="color:white;"><i class="el-icon-video-camera-solid"></i>&nbsp;&nbsp;物联网实时监测</h1>
+        <h1 style="color:white;"><i class="el-icon-video-camera-solid"></i>&nbsp;&nbsp;智慧果园物联网实时监测</h1>
         <el-divider id="el-divider"></el-divider>
         <h4 style="color:white;"><i class="el-icon-video-camera">&nbsp;&nbsp;</i>地点1(1号摄影机)：</h4>
         <video id='video_introduction' controls src=".//videos/video1.mp4"></video>
@@ -32,6 +32,7 @@ import MyFooter from '../components/MyFooter.vue';
         background-image:transparent;
         padding: 20%;
         padding-top:1%;
+        padding-bottom: 2%;
         height: 550px;
         overflow-y: scroll;
         overflow-x: hidden;
@@ -63,6 +64,6 @@ import MyFooter from '../components/MyFooter.vue';
     .el-icon-video-camera-solid{
         background-color: transparent;
         font-size: 40px;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
 </style>

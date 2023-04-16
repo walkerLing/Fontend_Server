@@ -1,5 +1,6 @@
 <template>
   <div id="Content">
+    
     <el-dialog
       title="AI预测中"
       :visible.sync="dialogTableVisible"
@@ -21,13 +22,16 @@
           style="
             border-radius: 30px;
             width: 800px;
-            height: 360px;
+            height: 440px;
             margin-bottom: -30px;
             border-color:white;
             background-color: rgba(20, 177, 212,0.2);
           "
         >
-          <div class="demo-image__preview1">
+        <span style="color: white; font-weight: bold;text-align:center;">
+          请上传智慧果园相关图片进行检测（tips：oranges、apples、farmers……）<br/><br/>
+        </span>
+        <div class="demo-image__preview1">
             <div
               v-loading="loading"
               element-loading-text="上传图片中"
@@ -143,6 +147,8 @@
             </el-tab-pane>
           </el-tabs>
         </el-card>
+        <MyFooter></MyFooter>
+
       </div>
     </div>
   </div>
@@ -150,9 +156,10 @@
 
 <script>
 import axios from "axios";
-
+import MyFooter from "./MyFooter.vue";
 export default {
   name: "MyContent",
+  components:{MyFooter},
   data() {
     return {
       server_url: "http://120.27.20.215:5000",

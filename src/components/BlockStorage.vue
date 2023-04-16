@@ -155,6 +155,9 @@ export default {
         .then(res => {
           this.notice15()
           console.log(res.data.data)
+          // 本行代码用于控制产地实景图片
+          // this.FormData.plantDevelopmentReq.images=res.data.data
+          // 本行代码用于在线使用追加图片功能
           this.FormData.plantDevelopmentReq.images.push(res.data.data)
           console.log("请求发送成功", res)
         })
@@ -181,10 +184,10 @@ export default {
         return false
       }
       // 判断文件大小是否符合要求
-      if (file.size / 1024 / 1024 > 1) {
-        this.$message.error('上传文件大小不能超过 1M !');
-        return false
-      }
+      // if (file.size / 1024 / 1024 > 1) {
+      //   this.$message.error('上传文件大小不能超过 1M !');
+      //   return false
+      // }
       console.log(file);
       this.upload2 = file.row
     },
@@ -199,10 +202,10 @@ export default {
         return false
       }
       // 判断文件大小是否符合要求
-      if (file.size / 1024 / 1024 > 1) {
-        this.$message.error('上传文件大小不能超过 1M !');
-        return false
-      }
+      // if (file.size / 1024 / 1024 > 1) {
+      //   this.$message.error('上传文件大小不能超过 1M !');
+      //   return false
+      // }
       console.log(file);
       this.upload1 = file.row
     },
@@ -235,7 +238,7 @@ export default {
     notice11() {
       this.$notify({
         title: "数据上传成功",
-        message: "所填数据将上传到区块链",
+        message: "所填数据已成功上传到区块链",
         duration: 0,
         type: "success",
       })

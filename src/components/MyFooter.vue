@@ -16,18 +16,16 @@ export default {
 <style scoped>
 #Footer {
   /*background:#F2F6FC;*/
-  padding: 6px;
   border-radius: 5px;
   width: 80%;
-  height: 80px;
-  margin: 20px auto;
-  margin-top: 140px;
+  height: 1%;
+  padding: 5%;
+  margin-left: 10%;
 }
 
 p {
   color: white;
   text-align: center;
-  margin: 30px auto;
   font-size: 1.1em;
 }
 </style>

@@ -115,7 +115,7 @@
     display: flex;
     justify-content: space-between;
     padding-left: 10%;
-    padding-top: 5%;
+    padding-top: 0%;
   }
 
  .link-boxes .box .link_name{

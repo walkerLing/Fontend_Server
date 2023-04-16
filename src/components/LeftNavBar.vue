@@ -23,7 +23,7 @@
                  <router-link :to="{name:'TargetDetection'}" active-class="active" >目标检测</router-link>
                  <router-link :to="{name:'RealMonitor'}" active-class="active" >物联监测</router-link>
                  <router-link :to="{name:'BlockPage'}" active-class="active" >产品溯源</router-link>
-                 <router-link :to="{name:'UserFeedback'}" active-class="active" >用户反馈</router-link>
+                 <router-link :to="{name:'UserFeedback'}" active-class="active" >联系我们</router-link>
              </div>
                </transition>
                <transition
@@ -49,7 +49,7 @@
                     <el-tooltip class="item" effect="dark" content="产品溯源" placement="right">
                     <router-link style="font-size: 20px" :to="{name:'BlockPage'}" active-class="active2"><li class="el-icon-link"></li></router-link>
                     </el-tooltip>
-                    <el-tooltip class="item" effect="dark" content="用户反馈" placement="right">
+                    <el-tooltip class="item" effect="dark" content="联系我们" placement="right">
                    <router-link style="font-size: 20px" to="UserFeedback" active-class="active2"><li class="el-icon-user-solid"></li></router-link>
                    </el-tooltip>
                </div>

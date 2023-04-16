@@ -1,8 +1,8 @@
 <template>
   <div id="Header">
     <div class="top-left-edition">
-      <span style="color: #fff; font-weight: bold">
-        <i class="el-icon-star-off" style="font-size: 23px"></i>在这里进行目标检测任务
+      <span style="color: #fff; font-weight: bold;text-align:center;">
+        <i class="el-icon-star-off" style="font-size: 23px"></i>在这里进行智慧果园目标检测任务<br/><br/>
       </span>
       <span style="color: #fff;">
         <i class="el-icon-time" style="font-size: 23px;color:#fff"></i>是个小仙女儿呀

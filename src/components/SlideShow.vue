@@ -7,7 +7,7 @@
     </el-carousel>
 
     <div class="jumbotron">
-      <h1 align="right" style="color:white;margin-bottom:5%;">——项目总述</h1>
+      <h1 align="right" style="color:white;margin-bottom:5%;">——智慧果园项目总述</h1>
       <el-card style="border-radius: 30px;border-color:white;background-color: rgba(20, 177, 212,0.2);">
         <p style="text-indent:3em;color:white">在实施乡村振兴战略和数字乡村建设的大背景下，
           本项目利用农业元宇宙体系中的区块链、人工智能计算机视觉等技术，
@@ -36,12 +36,16 @@
           </p>
         </el-card>
     </div>
+    <MyFooter></MyFooter>
   </div>
 </template>
 
 <script>
+    import MyFooter from '../components/MyFooter.vue';
+
 export default {
   name: 'SlideShow',
+  components:{ MyFooter },
   data() {
     return {
       // 图片地址数组
