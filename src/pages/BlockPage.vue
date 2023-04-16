@@ -42,6 +42,7 @@
                     </div>
                 </el-card>
             </div>
+            <MyFooter></MyFooter>
         </div>
     </div>
 </template>
@@ -50,9 +51,10 @@
 import axios from 'axios';
 import BlockSearch from '../components/BlockSearch';
 import BlockStorage from '../components/BlockStorage';
+import MyFooter from '../components/MyFooter.vue';
 export default {
     name: 'BlockPage',
-    components: { BlockSearch, BlockStorage },
+    components: { BlockSearch, BlockStorage, MyFooter,MyFooter },
     data() {
         return {
             input: '',

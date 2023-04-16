@@ -8,7 +8,7 @@ export default {
   name: "MyFooter",
   data() {
     return {
-      msg: "Copyright 2023",
+      msg: "Design by Yiming Ling/Copyright 2023.1.23",
     };
   },
 };

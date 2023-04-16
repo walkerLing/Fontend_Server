@@ -11,12 +11,15 @@
         <h4 style="color:white;"><i class="el-icon-video-camera">&nbsp;&nbsp;</i>地点3(3号摄影机)：</h4>
         <video id='video_introduction' controls src=".//videos/video3.mp4"></video>
         <el-divider id="el-divider"></el-divider>
+        <MyFooter></MyFooter>
     </div>
 </template>
 
 <script>
+import MyFooter from '../components/MyFooter.vue';
     export default {
         name: "RealMonitor",
+        components:{MyFooter}
     }
 </script>
 

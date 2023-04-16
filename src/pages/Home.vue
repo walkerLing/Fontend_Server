@@ -56,7 +56,7 @@
                         <span>团队人数</span>
                     </div>
                     <div style="font-family: PingFangSC-Semibold,PingFang SC;font-weight:bold;font-size: 20px; flex: 2;width: 100%;height: 100%;display: flex;align-items: center;padding-left: 10px">
-                        <span>23人</span>
+                        <span>3人</span>
                     </div>
                 </div>
             </div>
@@ -117,11 +117,12 @@
         height: 100%;
         width: 85%;
         margin-left: 8%;
-        margin-top: 0%;
+        margin-top: 1%;
         border-radius: 15px;
     }
     .headOfDataDisplay{
         flex: 2;
+        margin-top: 5%;
         width: 100%;
         height: 100%;
         display: flex;
@@ -133,18 +134,39 @@
         height: 100%;
         display: flex;
         align-items: center;
+        text-align: center;
         justify-content: center;
-        gap: 20px;
     }
     .demoOfDivInDetailedData{
         flex: 1;
-        width: 100%;
+        width: 80%;
         height: 80%;
         border-radius: 15px;
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
         flex-direction: column;
-        overflow: hidden;
+    }
+      /*滚动条整体部分*/
+    .mainBodyOfHome::-webkit-scrollbar{
+        width: 20px;
+        background-color: #F5F5F5;
+    }
+    /*滚动条轨道*/
+    .mainBodyOfHome::-webkit-scrollbar-track{
+        -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 5px;
+        background: rgba(196, 248, 196, 0.5);
+    }
+    .mainBodyOfHome::-webkit-scrollbar-thumb{
+        background-color: #fff;
+        border-radius: 5px;
+        background-image: -webkit-linear-gradient(top,
+        #85250d 0%,
+        #c26d49 30%,
+        #d5beb7 60%,
+        #e4f5fc 100%
+        );
     }
 </style>

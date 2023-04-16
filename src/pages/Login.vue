@@ -134,7 +134,7 @@
                          <div style="flex: 2;display: flex;align-items: center;font-size: 22px;color: #FFFFFF;font-weight: bold;text-align:center;">
                             <br/><br/><br/>
                          技术·产量<br/>
-                         基于农业元宇宙架构下智慧果园管理解决方案<br/><br/>
+                         基于农业元宇宙架构下智慧果园管理平台<br/><br/>
                          欢迎登入！<br/><br/>
                          </div>
                     <!-- 欢迎图片 -->

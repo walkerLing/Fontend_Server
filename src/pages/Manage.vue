@@ -33,15 +33,17 @@
             </transition>
         </div>
         </div>
+        <MyFooter></MyFooter>
     </div>
 </template>
 <script>
     import LeftNavBar from "../components/LeftNavBar";
     import PersonalView from "../components/PersonalView";
     import SlideShow from "../components/SlideShow.vue";
+    import MyFooter from "../components/MyFooter.vue";
     export default {
         name: "Manage",
-        components:{LeftNavBar,PersonalView,SlideShow},
+        components:{LeftNavBar,PersonalView,SlideShow,MyFooter},
         data(){
             return{
                 personalViewFlag:false
@@ -58,7 +60,6 @@
 <style scoped>
 
 .mainBody{
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,4 +90,5 @@
     .router_view-leave-active {
         opacity: 0;
     }
+
 </style>

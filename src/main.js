@@ -10,7 +10,6 @@ import router from './router'
 import axios from 'axios'
 import Element from 'element-ui'
 
-
 // 引入字体的文件
 import './assets/font/iconfont.css'
 // 引入全局的样式文件

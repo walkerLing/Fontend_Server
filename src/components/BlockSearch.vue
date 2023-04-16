@@ -141,13 +141,6 @@ export default {
       storage: {},
       url_0: [],
       url_1: [],
-      // images: [
-      //   { image: require('.//environments/all_ripe1.jpg') },
-      //   { image: require('.//environments/all_ripe2.jpg') },
-      //   { image: require('.//environments/all_ripe3.jpg') },
-      //   { image: require('.//environments/all_ripe4.jpg') },
-      //   { image: require('.//environments/all_ripe5.jpg') },
-      // ],
       activeName: "second",
     }
   },
